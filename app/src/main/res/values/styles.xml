@@ -3,11 +3,15 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="AppTheme.Base"/>
 
-<style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+<style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
     <item name="colorPrimary">@color/colorPrimary</item>
     <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     <item name="colorAccent">@color/colorAccent</item>
+    <!--<item name="colorBackground">@color/colorBackground</item>-->
 </style>
-
+<style name="myCusotmStyle" parent="Theme.AppCompat.Light">
+    <item name="android:textColorPrimary">#f3f3f3</item>
+    <item name="android:textColorSecondary">#d3d3d3</item>
+</style>
 
 </resources>
