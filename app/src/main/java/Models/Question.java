@@ -5,8 +5,8 @@ package Models;
  */
 public class Question {
 
-        String title;
-        String link;
+        public String title;
+        public String link;
 
         @Override
         public String toString() {

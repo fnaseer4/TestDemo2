@@ -10,7 +10,7 @@ import retrofit2.http.Query;
  */
 
 public interface StackOverFlowAPI {
-    @GET("/2.2/questions?order=desc&sort=creation&site=stackoverflow")
+    @GET("2.2/questions?order=desc&sort=creation&site=stackoverflow")
     Call<StackOverFlowQuestions> loadQuestions(
             @Query("tagged") String tags
     );

@@ -7,5 +7,5 @@ import java.util.List;
  */
 
 public class StackOverFlowQuestions {
-    List<Question> items;
+    public String has_more;
 }
